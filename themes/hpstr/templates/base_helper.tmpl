@@ -76,20 +76,12 @@ lang="${lang}">
 </%def>
 
 <%def name="html_stylesheets()">
-    %if use_bundles:
-        %if use_cdn:
-            <link href="/assets/css/all.css" rel="stylesheet" type="text/css">
-        %else:
-            <link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-        %endif
-    %else:
-        <link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
-        <link href="/assets/css/code.css" rel="stylesheet" type="text/css">
-        <link href="/assets/css/main.css" rel="stylesheet" type="text/css">
-        <link href="/assets/css/extra.css" rel="stylesheet" type="text/css">
-        %if has_custom_css:
-            <link href="/assets/css/custom.css" rel="stylesheet" type="text/css">
-        %endif
+    <link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/extra.css" rel="stylesheet" type="text/css">
+    %if has_custom_css:
+        <link href="/assets/css/custom.css" rel="stylesheet" type="text/css">
     %endif
     <!-- Webfonts -->
     <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
