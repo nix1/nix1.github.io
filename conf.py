@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Paweł Sierszeń"  # (translatable)
 BLOG_TITLE = "Coding, Cooking and Random Things"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://nix1.github.io/"
+SITE_URL = "/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
