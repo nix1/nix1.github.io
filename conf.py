@@ -18,7 +18,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Paweł Sierszeń"  # (translatable)
-BLOG_TITLE = "Paweł Sierszeń"  # (translatable)
+BLOG_TITLE = "Coding, Cooking and Random Things"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://nix1.github.io/"
@@ -26,7 +26,7 @@ SITE_URL = "https://nix1.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "blog@altrimenti.pl"
-BLOG_DESCRIPTION = "This is a demo site for Nikola."  # (translatable)
+BLOG_DESCRIPTION = ""  # (translatable)
 
 # Nikola is multilingual!
 #
