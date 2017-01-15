@@ -6,371 +6,431 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://example.com/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
+  <loc>/</loc>
+  <lastmod>2017-01-15T00:44:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/2012/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
+  <loc>/2011/</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/archive.html</loc>
+  <loc>/2012/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
+  <loc>/2013/</loc>
+  <lastmod>2017-01-15T00:44:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/blog/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
+  <loc>/2017/</loc>
+  <lastmod>2017-01-15T00:05:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_nikola/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
+  <loc>/archive.html</loc>
+  <lastmod>2017-01-15T00:49:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
+  <loc>/categories/</loc>
+  <lastmod>2017-01-15T00:36:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/nikola/</loc>
+  <loc>/categories/blog/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/python/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
+  <loc>/categories/cat_food/</loc>
+  <lastmod>2017-01-15T00:05:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/galleries/</loc>
+  <loc>/categories/cat_nikola/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/galleries/demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
+  <loc>/categories/cat_random/</loc>
+  <lastmod>2017-01-15T00:36:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/it/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
+  <loc>/categories/cat_software-engineering/</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/it/2012/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
+  <loc>/categories/conferences/</loc>
+  <lastmod>2017-01-14T19:10:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/it/archive.html</loc>
+  <loc>/categories/demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/it/categories/</loc>
+  <loc>/categories/english/</loc>
+  <lastmod>2017-01-15T00:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/categories/nikola/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/categories/polish/</loc>
+  <lastmod>2017-01-14T19:54:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/it/categories/blog/</loc>
+  <loc>/categories/python/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/it/categories/cat_nikola/</loc>
+  <loc>/categories/recipes/</loc>
+  <lastmod>2017-01-15T00:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/galleries/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/it/categories/demo/</loc>
+  <loc>/galleries/demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/it/</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/it/2011/</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/it/categories/nikola/</loc>
+  <loc>/it/2012/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/it/archive.html</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/it/categories/</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/it/categories/python/</loc>
+  <loc>/it/categories/blog/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/it/galleries/</loc>
+  <loc>/it/categories/cat_nikola/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/it/categories/cat_software-engineering/</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/it/categories/conferences/</loc>
+  <lastmod>2017-01-14T19:10:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/it/galleries/demo/</loc>
+  <loc>/it/categories/demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/it/pages/about-nikola/</loc>
+  <loc>/it/categories/nikola/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/about-nikola/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/bootstrap-demo/</loc>
+  <loc>/it/categories/python/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/bootstrap-demo/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/charts/</loc>
+  <loc>/it/galleries/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/charts/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/creating-a-theme/</loc>
+  <loc>/it/galleries/demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/creating-a-theme/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/dr-nikolas-vendetta/</loc>
+  <loc>/it/pages/about-nikola/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/dr-nikolas-vendetta/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/extending/</loc>
+  <loc>/it/pages/bootstrap-demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/extending/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/handbook/</loc>
+  <loc>/it/pages/charts/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/handbook/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/internals/</loc>
+  <loc>/it/pages/creating-a-theme/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/internals/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/listings-demo/</loc>
+  <loc>/it/pages/dr-nikolas-vendetta/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/listings-demo/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/path-handlers/</loc>
+  <loc>/it/pages/extending/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/path-handlers/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/quickref/</loc>
+  <loc>/it/pages/handbook/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/quickref/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/quickstart/</loc>
+  <loc>/it/pages/internals/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/quickstart/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/slides-demo/</loc>
+  <loc>/it/pages/listings-demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/slides-demo/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/social_buttons/</loc>
+  <loc>/it/pages/path-handlers/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/social_buttons/" />
  </url>
  <url>
-  <loc>https://example.com/it/pages/theming/</loc>
+  <loc>/it/pages/quickref/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/theming/" />
  </url>
  <url>
-  <loc>https://example.com/it/posts/welcome-to-nikola/</loc>
+  <loc>/it/pages/quickstart/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/posts/welcome-to-nikola/" />
  </url>
  <url>
-  <loc>https://example.com/listings/</loc>
+  <loc>/it/pages/slides-demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/listings/__pycache__/</loc>
+  <loc>/it/pages/social_buttons/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/listings/hello.py.html</loc>
+  <loc>/it/pages/theming/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/about-nikola/</loc>
+  <loc>/it/posts/phpcon-2011/</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/it/posts/welcome-to-nikola/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/bootstrap-demo/</loc>
+  <loc>/listings/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/charts/</loc>
+  <loc>/listings/__pycache__/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/listings/hello.py.html</loc>
+  <lastmod>2017-01-15T00:49:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/creating-a-theme/</loc>
+  <loc>/pages/about-nikola/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/dr-nikolas-vendetta/</loc>
+  <loc>/pages/bootstrap-demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/extending/</loc>
+  <loc>/pages/charts/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/handbook/</loc>
+  <loc>/pages/creating-a-theme/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/internals/</loc>
+  <loc>/pages/dr-nikolas-vendetta/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/listings-demo/</loc>
+  <loc>/pages/extending/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/path-handlers/</loc>
+  <loc>/pages/handbook/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/quickref/</loc>
+  <loc>/pages/internals/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/quickstart/</loc>
+  <loc>/pages/listings-demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/slides-demo/</loc>
+  <loc>/pages/path-handlers/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/social_buttons/</loc>
+  <loc>/pages/quickref/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/theming/</loc>
+  <loc>/pages/quickstart/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pl/</loc>
+  <loc>/pages/slides-demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pl/2012/</loc>
+  <loc>/pages/social_buttons/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pl/archive.html</loc>
+  <loc>/pages/theming/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/pl/</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/pl/2011/</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pl/categories/</loc>
+  <loc>/pl/2012/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/pl/archive.html</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pl/categories/blog/</loc>
+  <loc>/pl/categories/</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/pl/categories/blog/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pl/categories/cat_nikola/</loc>
+  <loc>/pl/categories/cat_nikola/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/pl/categories/cat_software-engineering/</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pl/categories/demo/</loc>
+  <loc>/pl/categories/conferences/</loc>
+  <lastmod>2017-01-14T19:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/pl/categories/demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pl/categories/nikola/</loc>
+  <loc>/pl/categories/nikola/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pl/categories/python/</loc>
+  <loc>/pl/categories/python/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pl/galleries/</loc>
+  <loc>/pl/galleries/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pl/galleries/demo/</loc>
+  <loc>/pl/galleries/demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pl/pages/about-nikola/</loc>
+  <loc>/pl/pages/about-nikola/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/about-nikola/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/bootstrap-demo/</loc>
+  <loc>/pl/pages/bootstrap-demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/bootstrap-demo/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/charts/</loc>
+  <loc>/pl/pages/charts/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/charts/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/creating-a-theme/</loc>
+  <loc>/pl/pages/creating-a-theme/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/creating-a-theme/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/dr-nikolas-vendetta/</loc>
+  <loc>/pl/pages/dr-nikolas-vendetta/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/dr-nikolas-vendetta/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/extending/</loc>
+  <loc>/pl/pages/extending/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/extending/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/handbook/</loc>
+  <loc>/pl/pages/handbook/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/handbook/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/internals/</loc>
+  <loc>/pl/pages/internals/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/internals/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/listings-demo/</loc>
+  <loc>/pl/pages/listings-demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/listings-demo/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/path-handlers/</loc>
+  <loc>/pl/pages/path-handlers/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/path-handlers/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/quickref/</loc>
+  <loc>/pl/pages/quickref/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/quickref/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/quickstart/</loc>
+  <loc>/pl/pages/quickstart/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/quickstart/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/slides-demo/</loc>
+  <loc>/pl/pages/slides-demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/slides-demo/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/social_buttons/</loc>
+  <loc>/pl/pages/social_buttons/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/social_buttons/" />
  </url>
  <url>
-  <loc>https://example.com/pl/pages/theming/</loc>
+  <loc>/pl/pages/theming/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/pages/theming/" />
+ </url>
+ <url>
+  <loc>/pl/posts/phpcon-2011/</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pl/posts/welcome-to-nikola/</loc>
+  <loc>/pl/posts/welcome-to-nikola/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://example.com/posts/welcome-to-nikola/" />
+ </url>
+ <url>
+  <loc>/posts/4developers-2012/</loc>
+  <lastmod>2017-01-14T23:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/posts/easy-pizza-the-simplest-no-knead-home-made-pizza-ever/</loc>
+  <lastmod>2017-01-15T00:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/posts/jslint-is-eval-what-i-hate-about-jslint/</loc>
+  <lastmod>2017-01-15T00:44:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/posts/phpcon-2011/</loc>
+  <lastmod>2017-01-14T19:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/posts/polyphasic-sleep-schedules-some-mathematics/</loc>
+  <lastmod>2017-01-15T00:28:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/welcome-to-nikola/</loc>
+  <loc>/posts/welcome-to-nikola/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
 </urlset>

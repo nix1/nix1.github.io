@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Coding, Cooking and Random Things (Posts about random)</title><link>/</link><description></description><atom:link rel="self" type="application/rss+xml" href="/categories/cat_random.xml"></atom:link><language>en</language><lastBuildDate>Sun, 15 Jan 2017 00:49:10 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Polyphasic Sleep Schedules – some mathematics</title><link>/posts/polyphasic-sleep-schedules-some-mathematics/</link><dc:creator>Paweł Sierszeń</dc:creator><description>&lt;div&gt;&lt;p&gt;In the first post not related to web development, I’d like to present some calculations
+on &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Polyphasic_sleep"&gt;polyphasic sleep&lt;/a&gt; which I’ve made for myself.&lt;/p&gt;
+&lt;p&gt;If you have no idea what I’m talking about, you’d better read some introduction first.&lt;/p&gt;
+&lt;p&gt;The basic formula behind most of the polyphasic sleep patterns is that a 20-min nap is roughly
+equivalent to 1.5 hour of “normal” sleep. Based on the data
+&lt;a class="reference external" href="http://www.dustincurtis.com/sleep.html"&gt;presented by Dustin Curtis&lt;/a&gt;, we have:&lt;/p&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="29%"&gt;
+&lt;col width="27%"&gt;
+&lt;col width="23%"&gt;
+&lt;col width="21%"&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;The Waste (monophasic)&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;8 h&lt;/td&gt;
+&lt;td&gt;8 h&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;The Siesta (biphasic)&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;6 h&lt;/td&gt;
+&lt;td&gt;6.3 h&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;The Everyman 2-nap&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;4.5 h&lt;/td&gt;
+&lt;td&gt;5.2 h&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;The Everyman 3-nap&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;3 h&lt;/td&gt;
+&lt;td&gt;4 h&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;The Everyman 4-nap&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;1.5 h&lt;/td&gt;
+&lt;td&gt;2.8 h&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Uberman&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;0.33 h (20 mins)&lt;/td&gt;
+&lt;td&gt;2 h&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;I don’t understand why in the article written by Dustin Curtis the 4-nap Everyman is
+defined as four or five naps plus 1.5 h core sleep. The 5-nap Everyman is the same as
+Uberman, and the 1.5 h core sleep seems to be a waste of time.
+You may be surprised that I’ve included Uberman as 20-min core sleep plus five 20-min naps,
+not as six naps. The reason for that is that I wanted to have some continuity when counting naps :)
+.. Let’s make a graph:&lt;/p&gt;
+&lt;p&gt;As you can see, the relation between the number of naps and the total amount of sleep is &lt;strong&gt;not linear&lt;/strong&gt;.
+So &lt;strong&gt;the benefit of going from Monophasic to Biphasic is bigger than going from the 4-nap
+Everyman to Uberman&lt;/strong&gt;.&lt;/p&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="28%"&gt;
+&lt;col width="20%"&gt;
+&lt;col width="21%"&gt;
+&lt;col width="31%"&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;The Waste (monophasic)&lt;/td&gt;
+&lt;td&gt;16 h&lt;/td&gt;
+&lt;td&gt;0%&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;The Siesta (biphasic)&lt;/td&gt;
+&lt;td&gt;17.7 h&lt;/td&gt;
+&lt;td&gt;10.4%&lt;/td&gt;
+&lt;td&gt;10.4%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;The Everyman 2-nap&lt;/td&gt;
+&lt;td&gt;18.8 h&lt;/td&gt;
+&lt;td&gt;17.7%&lt;/td&gt;
+&lt;td&gt;6.6%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;The Everyman 3-nap&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;25%&lt;/td&gt;
+&lt;td&gt;6.2%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;The Everyman 4-nap&lt;/td&gt;
+&lt;td&gt;21.2&lt;/td&gt;
+&lt;td&gt;32.3%&lt;/td&gt;
+&lt;td&gt;5.8%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Uberman&lt;/td&gt;
+&lt;td&gt;22&lt;/td&gt;
+&lt;td&gt;37.5%&lt;/td&gt;
+&lt;td&gt;3.9%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Note that &lt;strong&gt;it doesn’t really matter how much less you sleep, it matters how much more time
+you have and how much more you can get done&lt;/strong&gt;. Keeping in mind that each additional nap
+introduces significant disturbance into one’s lifestyle and scheduling, I believe that &lt;strong&gt;there
+must be some optimum in beetween&lt;/strong&gt;. My theory seem to be supported by the fact that the longest
+running Uberman sleepers I know about, that is &lt;a class="reference external" href="http://www.puredoxyk.com/index.php/polyphasic-sleep-portal/"&gt;PureDoxyk&lt;/a&gt;
+and &lt;a class="reference external" href="http://www.stevepavlina.com/blog/2005/10/polyphasic-sleep/"&gt;Steve Pavlina&lt;/a&gt; have both switched
+to Everyman-3. On the other end of the spectrum, we have whole societies that use the &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Siesta"&gt;1-nap biphasic
+Siesta sleeping pattern&lt;/a&gt; (I lived in Italy for some time and
+I think that the siesta is great!), so it must have been really worth the trouble, don’t you think?&lt;/p&gt;&lt;/div&gt;</description><category>english</category><guid>/posts/polyphasic-sleep-schedules-some-mathematics/</guid><pubDate>Wed, 02 Nov 2011 00:18:34 GMT</pubDate></item></channel></rss>
