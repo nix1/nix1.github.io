@@ -49,3 +49,13 @@
 .thumbnails > li:last-of-type {
         margin-right: 0;
 }
+
+/* Fix code snippets for mobile and small tablets */
+@media only screen and (max-width: 580px) {
+        td.linenos {
+                width: 6vw;
+        }
+        pre {
+                font-size: 2vw;
+        }
+}
