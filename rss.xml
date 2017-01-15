@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Coding, Cooking and Random Things</title><link>/</link><description></description><atom:link href="/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sun, 15 Jan 2017 01:06:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>JsLint is eval: what I hate about JsLint</title><link>/posts/jslint-is-eval-what-i-hate-about-jslint/</link><dc:creator>Paweł Sierszeń</dc:creator><description>&lt;div&gt;&lt;p&gt;The title might be misleading, because in general I actually appreciate JsLint. It’s very helpful and I even think that often it’s not strict enough (300 chars in a line? no problem at all!)
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Coding, Cooking and Random Things</title><link>/</link><description></description><atom:link rel="self" href="/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sun, 15 Jan 2017 22:54:52 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>JsLint is eval: what I hate about JsLint</title><link>/posts/jslint-is-eval-what-i-hate-about-jslint/</link><dc:creator>Paweł Sierszeń</dc:creator><description>&lt;div&gt;&lt;p&gt;The title might be misleading, because in general I actually appreciate JsLint. It’s very helpful and I even think that often it’s not strict enough (300 chars in a line? no problem at all!)
 However, there are some issues which usually make me end up with a long list of exceptions and consequently reduce the benefit of using JsLint. Here you go!&lt;/p&gt;
 &lt;p&gt;Filtering properties is only slowing you down if you are sure about what to expect. And actually sometimes you do want the properties from the prototype (usually containing some default values) to be taken into account. So then JsLint will complain.&lt;/p&gt;
-&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_aa853fa8583d4933bf7ab77236ec74cc-1"&gt;1&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_aa853fa8583d4933bf7ab77236ec74cc-2"&gt;2&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_aa853fa8583d4933bf7ab77236ec74cc-3"&gt;3&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_aa853fa8583d4933bf7ab77236ec74cc-4"&gt;4&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_aa853fa8583d4933bf7ab77236ec74cc-5"&gt;5&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code javascript"&gt;&lt;a name="rest_code_aa853fa8583d4933bf7ab77236ec74cc-1"&gt;&lt;/a&gt;&lt;span class="c1"&gt;// The body of a for in should be wrapped in an if statement&lt;/span&gt;
-&lt;a name="rest_code_aa853fa8583d4933bf7ab77236ec74cc-2"&gt;&lt;/a&gt;&lt;span class="c1"&gt;// to filter unwanted properties from the prototype.&lt;/span&gt;
-&lt;a name="rest_code_aa853fa8583d4933bf7ab77236ec74cc-3"&gt;&lt;/a&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;prop&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nx"&gt;myPreciousObject&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_aa853fa8583d4933bf7ab77236ec74cc-4"&gt;&lt;/a&gt;    &lt;span class="c1"&gt;// ...&lt;/span&gt;
-&lt;a name="rest_code_aa853fa8583d4933bf7ab77236ec74cc-5"&gt;&lt;/a&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_1db3025a14c04a908d54199d988869bc-1"&gt;1&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_1db3025a14c04a908d54199d988869bc-2"&gt;2&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_1db3025a14c04a908d54199d988869bc-3"&gt;3&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_1db3025a14c04a908d54199d988869bc-4"&gt;4&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_1db3025a14c04a908d54199d988869bc-5"&gt;5&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code javascript"&gt;&lt;a name="rest_code_1db3025a14c04a908d54199d988869bc-1"&gt;&lt;/a&gt;&lt;span class="c1"&gt;// The body of a for in should be wrapped in an if statement&lt;/span&gt;
+&lt;a name="rest_code_1db3025a14c04a908d54199d988869bc-2"&gt;&lt;/a&gt;&lt;span class="c1"&gt;// to filter unwanted properties from the prototype.&lt;/span&gt;
+&lt;a name="rest_code_1db3025a14c04a908d54199d988869bc-3"&gt;&lt;/a&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;prop&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nx"&gt;myPreciousObject&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_1db3025a14c04a908d54199d988869bc-4"&gt;&lt;/a&gt;    &lt;span class="c1"&gt;// ...&lt;/span&gt;
+&lt;a name="rest_code_1db3025a14c04a908d54199d988869bc-5"&gt;&lt;/a&gt;&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The fastest way to loop through an array is an inverted loop. But JsLint will complain.&lt;/p&gt;
-&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-1"&gt;1&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-2"&gt;2&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-3"&gt;3&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-4"&gt;4&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-5"&gt;5&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code javascript"&gt;&lt;a name="rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-1"&gt;&lt;/a&gt; &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;len&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;length&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;a name="rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-2"&gt;&lt;/a&gt; &lt;span class="c1"&gt;// Unexpected '--'.&lt;/span&gt;
-&lt;a name="rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-3"&gt;&lt;/a&gt; &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;len&lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-4"&gt;&lt;/a&gt;     &lt;span class="c1"&gt;// ...&lt;/span&gt;
-&lt;a name="rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-5"&gt;&lt;/a&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_26fb554a788a415799f00ea85f51da60-1"&gt;1&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_26fb554a788a415799f00ea85f51da60-2"&gt;2&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_26fb554a788a415799f00ea85f51da60-3"&gt;3&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_26fb554a788a415799f00ea85f51da60-4"&gt;4&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_26fb554a788a415799f00ea85f51da60-5"&gt;5&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code javascript"&gt;&lt;a name="rest_code_26fb554a788a415799f00ea85f51da60-1"&gt;&lt;/a&gt; &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;len&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;length&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;a name="rest_code_26fb554a788a415799f00ea85f51da60-2"&gt;&lt;/a&gt; &lt;span class="c1"&gt;// Unexpected '--'.&lt;/span&gt;
+&lt;a name="rest_code_26fb554a788a415799f00ea85f51da60-3"&gt;&lt;/a&gt; &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;len&lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_26fb554a788a415799f00ea85f51da60-4"&gt;&lt;/a&gt;     &lt;span class="c1"&gt;// ...&lt;/span&gt;
+&lt;a name="rest_code_26fb554a788a415799f00ea85f51da60-5"&gt;&lt;/a&gt; &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Believe it or not, there are legitimate uses of eval or new Function. For a nice
 example, see the source of the templating engine in the &lt;a class="reference external" href="https://github.com/qatrix/Qatrix/blob/master/qatrix.js"&gt;Qatrix&lt;/a&gt;
 framework. Or how the &lt;a class="reference external" href="http://api.jquery.com/jQuery.getScript/"&gt;getScript&lt;/a&gt; method in jQuery works. But JsLint will complain.&lt;/p&gt;
-&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_3d1f020154fc4ebc976626e649108211-1"&gt;1&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_3d1f020154fc4ebc976626e649108211-2"&gt;2&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code javascript"&gt;&lt;a name="rest_code_3d1f020154fc4ebc976626e649108211-1"&gt;&lt;/a&gt; &lt;span class="c1"&gt;// The Function constructor is eval.&lt;/span&gt;
-&lt;a name="rest_code_3d1f020154fc4ebc976626e649108211-2"&gt;&lt;/a&gt; &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;f&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nb"&gt;Function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"param"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;generatedCode&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_656c1190eb964173be9f87f78b9a8f0f-1"&gt;1&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_656c1190eb964173be9f87f78b9a8f0f-2"&gt;2&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code javascript"&gt;&lt;a name="rest_code_656c1190eb964173be9f87f78b9a8f0f-1"&gt;&lt;/a&gt; &lt;span class="c1"&gt;// The Function constructor is eval.&lt;/span&gt;
+&lt;a name="rest_code_656c1190eb964173be9f87f78b9a8f0f-2"&gt;&lt;/a&gt; &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;f&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nb"&gt;Function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"param"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;generatedCode&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;If you use external APIs (or maybe even your own) taking callbacks as parameters,
 like in , you have no control over the number or order of parameters in the callback function. So if you don’t need to use all of them, JsLint will complain.&lt;/p&gt;
-&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_f2f99807616f402d89e7088e66fafe83-1"&gt;1&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_f2f99807616f402d89e7088e66fafe83-2"&gt;2&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_f2f99807616f402d89e7088e66fafe83-3"&gt;3&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code javascript"&gt;&lt;a name="rest_code_f2f99807616f402d89e7088e66fafe83-1"&gt;&lt;/a&gt; &lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;each&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;obj&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;key&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;value&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_f2f99807616f402d89e7088e66fafe83-2"&gt;&lt;/a&gt;     &lt;span class="nx"&gt;console&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;log&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;value&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// Unused 'key'.&lt;/span&gt;
-&lt;a name="rest_code_f2f99807616f402d89e7088e66fafe83-3"&gt;&lt;/a&gt; &lt;span class="p"&gt;});&lt;/span&gt;
+&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_6e261323576548ad905c2423148717f4-1"&gt;1&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_6e261323576548ad905c2423148717f4-2"&gt;2&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_6e261323576548ad905c2423148717f4-3"&gt;3&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code javascript"&gt;&lt;a name="rest_code_6e261323576548ad905c2423148717f4-1"&gt;&lt;/a&gt; &lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;each&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;obj&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;key&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;value&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_6e261323576548ad905c2423148717f4-2"&gt;&lt;/a&gt;     &lt;span class="nx"&gt;console&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;log&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;value&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="c1"&gt;// Unused 'key'.&lt;/span&gt;
+&lt;a name="rest_code_6e261323576548ad905c2423148717f4-3"&gt;&lt;/a&gt; &lt;span class="p"&gt;});&lt;/span&gt;
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Often the easiest way to match some pattern or get rid of all unwanted characters using regular expressions is to invert a character set. For instance, one of solutions for extracting filename is shown below. I have no idea why it would be less secure than using split, but JsLint will complain.&lt;/p&gt;
-&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_49994d95e07545eb8acb4508ec6ac05c-1"&gt;1&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_49994d95e07545eb8acb4508ec6ac05c-2"&gt;2&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_49994d95e07545eb8acb4508ec6ac05c-3"&gt;3&lt;/a&gt;
-&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_49994d95e07545eb8acb4508ec6ac05c-4"&gt;4&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code javascript"&gt;&lt;a name="rest_code_49994d95e07545eb8acb4508ec6ac05c-1"&gt;&lt;/a&gt; &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'path/to/file'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;a name="rest_code_49994d95e07545eb8acb4508ec6ac05c-2"&gt;&lt;/a&gt;     &lt;span class="c1"&gt;// Insecure '^'.&lt;/span&gt;
-&lt;a name="rest_code_49994d95e07545eb8acb4508ec6ac05c-3"&gt;&lt;/a&gt;     &lt;span class="nx"&gt;regexp&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sr"&gt;/([^\/])+$/g&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;a name="rest_code_49994d95e07545eb8acb4508ec6ac05c-4"&gt;&lt;/a&gt;     &lt;span class="nx"&gt;filename&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;match&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;regexp&lt;/span&gt;&lt;span class="p"&gt;)[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
+&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_c1452119e1944eeb83ad281533c3b971-1"&gt;1&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_c1452119e1944eeb83ad281533c3b971-2"&gt;2&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_c1452119e1944eeb83ad281533c3b971-3"&gt;3&lt;/a&gt;
+&lt;a href="/posts/jslint-is-eval-what-i-hate-about-jslint/#rest_code_c1452119e1944eeb83ad281533c3b971-4"&gt;4&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code javascript"&gt;&lt;a name="rest_code_c1452119e1944eeb83ad281533c3b971-1"&gt;&lt;/a&gt; &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'path/to/file'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;a name="rest_code_c1452119e1944eeb83ad281533c3b971-2"&gt;&lt;/a&gt;     &lt;span class="c1"&gt;// Insecure '^'.&lt;/span&gt;
+&lt;a name="rest_code_c1452119e1944eeb83ad281533c3b971-3"&gt;&lt;/a&gt;     &lt;span class="nx"&gt;regexp&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sr"&gt;/([^\/])+$/g&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;a name="rest_code_c1452119e1944eeb83ad281533c3b971-4"&gt;&lt;/a&gt;     &lt;span class="nx"&gt;filename&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;match&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;regexp&lt;/span&gt;&lt;span class="p"&gt;)[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Are you aware of any other issues related to errors reported by JsLint?
 Share them below :)&lt;/p&gt;
 &lt;p&gt;For further reading, I reccommend &lt;a class="reference external" href="http://webreflection.blogspot.com/2011/05/my-last-comments-on-jslint.html"&gt;a great post by Andrea Giammarchi&lt;/a&gt;
@@ -93,12 +93,14 @@ Mariusz porównuje to do pisania frameworka – podobno każdy programista wcze�
 pisze swój 🙂 Oczywiście jest to możliwe, natomiast zrobienie tego prawidłowo, to znaczy z
 obsługą sytuacji krytycznych czy odpowiednim do sytuacji wznawianiem błędnych zadań zajmuje
 sporo czasu i na pewno lepiej jest skorzystać z gotowych rozwiązań.&lt;/p&gt;
-&lt;p&gt;Wymienione gotowe rozwiązania to:
-* MemcacheQ
-* BeanstalkD (+biblioteka Pheanstalk)
-* GearmanD – Task Management Framework
-* Amazon SQS (w chmurze, $0.01 za 10000 requestów)
-* Resque&lt;/p&gt;
+&lt;p&gt;Wymienione gotowe rozwiązania to:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;MemcacheQ&lt;/li&gt;
+&lt;li&gt;BeanstalkD (+biblioteka Pheanstalk)&lt;/li&gt;
+&lt;li&gt;GearmanD – Task Management Framework&lt;/li&gt;
+&lt;li&gt;Amazon SQS (w chmurze, $0.01 za 10000 requestów)&lt;/li&gt;
+&lt;li&gt;Resque&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Trudno mi po pobieżnym przejrzeniu porównać je do siebie. Osoby korzystające z Memcache’a
 na pewno zainteresuje MemcacheQ, a SQS te korzystające z chmur Amazonu. Wydaje się że Gearman
 oferuje najwięcej możliwości, a najbardziej przyjazny jest stworzony na potrzeby Githuba Resque
@@ -110,13 +112,15 @@ oferuje najwięcej możliwości, a najbardziej przyjazny jest stworzony na potrz
 &lt;p&gt;&lt;a class="reference external" href="http://www.slideshare.net/rowan_m/estimation-or-how-to-dig-your-grave"&gt;prezentacja na Slideshare&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Rowan Merewood mówił dość szeroko o szacowaniu ilości czasu, który to problem na ogół dotyka
 programistów (Rowan jest programistą PHP). Zachęcam do przejrzenia prezentacji na Slideshare,
-dowiedziałem się z niej między innymi:
-* że 8-godzinny dzień pracy to najwyżej 6 godzin pracy,
-* że bardzo dokładne planowanie zadań wcale nie pomaga w wycenie,
-* że ze względu na niepewność wycen podejście iteracyjne jest jedynym sensownym,
-* o &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Kano_model"&gt;modelu Kano&lt;/a&gt;, czyli co sprawia że klient jest zadowolony
-i jak to się ma do &lt;a class="reference external" href="http://en.wikipedia.org/wiki/MoSCoW_Method"&gt;metody MoSCoW&lt;/a&gt;
-* i że czasem lepiej jest powiedzieć, że coś „będzie, kiedy będzie” zamiast podawać wycenę „z sufitu”. 🙂&lt;/p&gt;
+dowiedziałem się z niej między innymi:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;że 8-godzinny dzień pracy to najwyżej 6 godzin pracy,&lt;/li&gt;
+&lt;li&gt;że bardzo dokładne planowanie zadań wcale nie pomaga w wycenie,&lt;/li&gt;
+&lt;li&gt;że ze względu na niepewność wycen podejście iteracyjne jest jedynym sensownym,&lt;/li&gt;
+&lt;li&gt;o &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Kano_model"&gt;modelu Kano&lt;/a&gt;, czyli co sprawia że klient jest zadowolony
+i jak to się ma do &lt;a class="reference external" href="http://en.wikipedia.org/wiki/MoSCoW_Method"&gt;metody MoSCoW&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;i że czasem lepiej jest powiedzieć, że coś „będzie, kiedy będzie” zamiast podawać wycenę „z sufitu”. 🙂&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="thijs-feryn-tworzenie-i-wdrazanie-z-uzyciem-strategii-chmur-hybrydowych"&gt;
 &lt;h2&gt;Thijs Feryn: Tworzenie i wdrażanie z użyciem strategii chmur hybrydowych&lt;/h2&gt;

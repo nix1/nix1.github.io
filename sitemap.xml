@@ -22,28 +22,16 @@
   <lastmod>2017-01-15T00:44:00Z</lastmod>
  </url>
  <url>
-  <loc>/2017/</loc>
-  <lastmod>2017-01-15T00:05:00Z</lastmod>
- </url>
- <url>
   <loc>/archive.html</loc>
-  <lastmod>2017-01-15T00:49:00Z</lastmod>
+  <lastmod>2017-01-15T21:42:00Z</lastmod>
  </url>
  <url>
   <loc>/categories/</loc>
-  <lastmod>2017-01-15T00:36:00Z</lastmod>
- </url>
- <url>
-  <loc>/categories/blog/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
+  <lastmod>2017-01-15T01:07:00Z</lastmod>
  </url>
  <url>
   <loc>/categories/cat_food/</loc>
   <lastmod>2017-01-15T00:05:00Z</lastmod>
- </url>
- <url>
-  <loc>/categories/cat_nikola/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
   <loc>/categories/cat_random/</loc>
@@ -58,24 +46,12 @@
   <lastmod>2017-01-14T19:10:00Z</lastmod>
  </url>
  <url>
-  <loc>/categories/demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
   <loc>/categories/english/</loc>
   <lastmod>2017-01-15T00:05:00Z</lastmod>
  </url>
  <url>
-  <loc>/categories/nikola/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
   <loc>/categories/polish/</loc>
   <lastmod>2017-01-14T19:54:00Z</lastmod>
- </url>
- <url>
-  <loc>/categories/python/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
   <loc>/categories/recipes/</loc>
@@ -90,130 +66,6 @@
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>/it/</loc>
-  <lastmod>2017-01-14T19:14:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/2011/</loc>
-  <lastmod>2017-01-14T19:14:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/2012/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/archive.html</loc>
-  <lastmod>2017-01-14T19:14:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/categories/</loc>
-  <lastmod>2017-01-14T19:14:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/categories/blog/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/categories/cat_nikola/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/categories/cat_software-engineering/</loc>
-  <lastmod>2017-01-14T19:14:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/categories/conferences/</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/categories/demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/categories/nikola/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/categories/python/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/galleries/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/galleries/demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/about-nikola/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/bootstrap-demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/charts/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/creating-a-theme/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/extending/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/handbook/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/internals/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/listings-demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/path-handlers/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/quickref/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/quickstart/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/slides-demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/social_buttons/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/pages/theming/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/posts/phpcon-2011/</loc>
-  <lastmod>2017-01-14T19:14:00Z</lastmod>
- </url>
- <url>
-  <loc>/it/posts/welcome-to-nikola/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
   <loc>/listings/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
@@ -223,191 +75,7 @@
  </url>
  <url>
   <loc>/listings/hello.py.html</loc>
-  <lastmod>2017-01-15T00:49:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/about-nikola/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/bootstrap-demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/charts/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/creating-a-theme/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/extending/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/handbook/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/internals/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/listings-demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/path-handlers/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/quickref/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/quickstart/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/slides-demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/social_buttons/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pages/theming/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/</loc>
-  <lastmod>2017-01-14T19:14:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/2011/</loc>
-  <lastmod>2017-01-14T19:14:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/2012/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/archive.html</loc>
-  <lastmod>2017-01-14T19:14:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/categories/</loc>
-  <lastmod>2017-01-14T19:14:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/categories/blog/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/categories/cat_nikola/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/categories/cat_software-engineering/</loc>
-  <lastmod>2017-01-14T19:14:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/categories/conferences/</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/categories/demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/categories/nikola/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/categories/python/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/galleries/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/galleries/demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/about-nikola/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/bootstrap-demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/charts/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/creating-a-theme/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/extending/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/handbook/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/internals/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/listings-demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/path-handlers/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/quickref/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/quickstart/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/slides-demo/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/social_buttons/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/pages/theming/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/posts/phpcon-2011/</loc>
-  <lastmod>2017-01-14T19:14:00Z</lastmod>
- </url>
- <url>
-  <loc>/pl/posts/welcome-to-nikola/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
+  <lastmod>2017-01-15T21:42:00Z</lastmod>
  </url>
  <url>
   <loc>/posts/4developers-2012/</loc>
@@ -428,9 +96,5 @@
  <url>
   <loc>/posts/polyphasic-sleep-schedules-some-mathematics/</loc>
   <lastmod>2017-01-15T00:28:00Z</lastmod>
- </url>
- <url>
-  <loc>/posts/welcome-to-nikola/</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
 </urlset>

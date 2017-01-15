@@ -83,63 +83,63 @@ However, ">
 However, there are some issues which usually make me end up with a long list of exceptions and consequently reduce the benefit of using JsLint. Here you&nbsp;go!</p>
 <p>Filtering properties is only slowing you down if you are sure about what to expect. And actually sometimes you do want the properties from the prototype (usually containing some default values) to be taken into account. So then JsLint will&nbsp;complain.</p>
 <table class="codetable"><tr>
-<td class="linenos"><div class="linenodiv"><pre><a href="#rest_code_aa853fa8583d4933bf7ab77236ec74cc-1">1</a>
-<a href="#rest_code_aa853fa8583d4933bf7ab77236ec74cc-2">2</a>
-<a href="#rest_code_aa853fa8583d4933bf7ab77236ec74cc-3">3</a>
-<a href="#rest_code_aa853fa8583d4933bf7ab77236ec74cc-4">4</a>
-<a href="#rest_code_aa853fa8583d4933bf7ab77236ec74cc-5">5</a></pre></div></td>
-<td class="code"><pre class="code javascript"><a name="rest_code_aa853fa8583d4933bf7ab77236ec74cc-1"></a><span class="c1">// The body of a for in should be wrapped in an if statement</span>
-<a name="rest_code_aa853fa8583d4933bf7ab77236ec74cc-2"></a><span class="c1">// to filter unwanted properties from the prototype.</span>
-<a name="rest_code_aa853fa8583d4933bf7ab77236ec74cc-3"></a><span class="k">for</span> <span class="p">(</span><span class="nx">prop</span> <span class="k">in</span> <span class="nx">myPreciousObject</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_aa853fa8583d4933bf7ab77236ec74cc-4"></a>    <span class="c1">// ...</span>
-<a name="rest_code_aa853fa8583d4933bf7ab77236ec74cc-5"></a><span class="p">}</span>
+<td class="linenos"><div class="linenodiv"><pre><a href="#rest_code_1db3025a14c04a908d54199d988869bc-1">1</a>
+<a href="#rest_code_1db3025a14c04a908d54199d988869bc-2">2</a>
+<a href="#rest_code_1db3025a14c04a908d54199d988869bc-3">3</a>
+<a href="#rest_code_1db3025a14c04a908d54199d988869bc-4">4</a>
+<a href="#rest_code_1db3025a14c04a908d54199d988869bc-5">5</a></pre></div></td>
+<td class="code"><pre class="code javascript"><a name="rest_code_1db3025a14c04a908d54199d988869bc-1"></a><span class="c1">// The body of a for in should be wrapped in an if statement</span>
+<a name="rest_code_1db3025a14c04a908d54199d988869bc-2"></a><span class="c1">// to filter unwanted properties from the prototype.</span>
+<a name="rest_code_1db3025a14c04a908d54199d988869bc-3"></a><span class="k">for</span> <span class="p">(</span><span class="nx">prop</span> <span class="k">in</span> <span class="nx">myPreciousObject</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_1db3025a14c04a908d54199d988869bc-4"></a>    <span class="c1">// ...</span>
+<a name="rest_code_1db3025a14c04a908d54199d988869bc-5"></a><span class="p">}</span>
 </pre></td>
 </tr></table>
 <p>The fastest way to loop through an array is an inverted loop. But JsLint will&nbsp;complain.</p>
 <table class="codetable"><tr>
-<td class="linenos"><div class="linenodiv"><pre><a href="#rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-1">1</a>
-<a href="#rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-2">2</a>
-<a href="#rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-3">3</a>
-<a href="#rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-4">4</a>
-<a href="#rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-5">5</a></pre></div></td>
-<td class="code"><pre class="code javascript"><a name="rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-1"></a> <span class="kd">var</span> <span class="nx">len</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
-<a name="rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-2"></a> <span class="c1">// Unexpected '--'.</span>
-<a name="rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-3"></a> <span class="k">while</span> <span class="p">(</span><span class="nx">len</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-4"></a>     <span class="c1">// ...</span>
-<a name="rest_code_2abfa40637f84aba8ed4ffe8b98ff00a-5"></a> <span class="p">}</span>
+<td class="linenos"><div class="linenodiv"><pre><a href="#rest_code_26fb554a788a415799f00ea85f51da60-1">1</a>
+<a href="#rest_code_26fb554a788a415799f00ea85f51da60-2">2</a>
+<a href="#rest_code_26fb554a788a415799f00ea85f51da60-3">3</a>
+<a href="#rest_code_26fb554a788a415799f00ea85f51da60-4">4</a>
+<a href="#rest_code_26fb554a788a415799f00ea85f51da60-5">5</a></pre></div></td>
+<td class="code"><pre class="code javascript"><a name="rest_code_26fb554a788a415799f00ea85f51da60-1"></a> <span class="kd">var</span> <span class="nx">len</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+<a name="rest_code_26fb554a788a415799f00ea85f51da60-2"></a> <span class="c1">// Unexpected '--'.</span>
+<a name="rest_code_26fb554a788a415799f00ea85f51da60-3"></a> <span class="k">while</span> <span class="p">(</span><span class="nx">len</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_26fb554a788a415799f00ea85f51da60-4"></a>     <span class="c1">// ...</span>
+<a name="rest_code_26fb554a788a415799f00ea85f51da60-5"></a> <span class="p">}</span>
 </pre></td>
 </tr></table>
 <p>Believe it or not, there are legitimate uses of eval or new Function. For a nice
 example, see the source of the templating engine in the <a class="reference external" href="https://github.com/qatrix/Qatrix/blob/master/qatrix.js">Qatrix</a>
 framework. Or how the <a class="reference external" href="http://api.jquery.com/jQuery.getScript/">getScript</a> method in jQuery works. But JsLint will&nbsp;complain.</p>
 <table class="codetable"><tr>
-<td class="linenos"><div class="linenodiv"><pre><a href="#rest_code_3d1f020154fc4ebc976626e649108211-1">1</a>
-<a href="#rest_code_3d1f020154fc4ebc976626e649108211-2">2</a></pre></div></td>
-<td class="code"><pre class="code javascript"><a name="rest_code_3d1f020154fc4ebc976626e649108211-1"></a> <span class="c1">// The Function constructor is eval.</span>
-<a name="rest_code_3d1f020154fc4ebc976626e649108211-2"></a> <span class="kd">var</span> <span class="nx">f</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="s2">"param"</span><span class="p">,</span> <span class="nx">generatedCode</span><span class="p">);</span>
+<td class="linenos"><div class="linenodiv"><pre><a href="#rest_code_656c1190eb964173be9f87f78b9a8f0f-1">1</a>
+<a href="#rest_code_656c1190eb964173be9f87f78b9a8f0f-2">2</a></pre></div></td>
+<td class="code"><pre class="code javascript"><a name="rest_code_656c1190eb964173be9f87f78b9a8f0f-1"></a> <span class="c1">// The Function constructor is eval.</span>
+<a name="rest_code_656c1190eb964173be9f87f78b9a8f0f-2"></a> <span class="kd">var</span> <span class="nx">f</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="s2">"param"</span><span class="p">,</span> <span class="nx">generatedCode</span><span class="p">);</span>
 </pre></td>
 </tr></table>
 <p>If you use external APIs (or maybe even your own) taking callbacks as parameters,
 like in , you have no control over the number or order of parameters in the callback function. So if you don’t need to use all of them, JsLint will&nbsp;complain.</p>
 <table class="codetable"><tr>
-<td class="linenos"><div class="linenodiv"><pre><a href="#rest_code_f2f99807616f402d89e7088e66fafe83-1">1</a>
-<a href="#rest_code_f2f99807616f402d89e7088e66fafe83-2">2</a>
-<a href="#rest_code_f2f99807616f402d89e7088e66fafe83-3">3</a></pre></div></td>
-<td class="code"><pre class="code javascript"><a name="rest_code_f2f99807616f402d89e7088e66fafe83-1"></a> <span class="nx">$</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">obj</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">key</span><span class="p">,</span> <span class="nx">value</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_f2f99807616f402d89e7088e66fafe83-2"></a>     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">value</span><span class="p">);</span> <span class="c1">// Unused 'key'.</span>
-<a name="rest_code_f2f99807616f402d89e7088e66fafe83-3"></a> <span class="p">});</span>
+<td class="linenos"><div class="linenodiv"><pre><a href="#rest_code_6e261323576548ad905c2423148717f4-1">1</a>
+<a href="#rest_code_6e261323576548ad905c2423148717f4-2">2</a>
+<a href="#rest_code_6e261323576548ad905c2423148717f4-3">3</a></pre></div></td>
+<td class="code"><pre class="code javascript"><a name="rest_code_6e261323576548ad905c2423148717f4-1"></a> <span class="nx">$</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">obj</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">key</span><span class="p">,</span> <span class="nx">value</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_6e261323576548ad905c2423148717f4-2"></a>     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">value</span><span class="p">);</span> <span class="c1">// Unused 'key'.</span>
+<a name="rest_code_6e261323576548ad905c2423148717f4-3"></a> <span class="p">});</span>
 </pre></td>
 </tr></table>
 <p>Often the easiest way to match some pattern or get rid of all unwanted characters using regular expressions is to invert a character set. For instance, one of solutions for extracting filename is shown below. I have no idea why it would be less secure than using split, but JsLint will&nbsp;complain.</p>
 <table class="codetable"><tr>
-<td class="linenos"><div class="linenodiv"><pre><a href="#rest_code_49994d95e07545eb8acb4508ec6ac05c-1">1</a>
-<a href="#rest_code_49994d95e07545eb8acb4508ec6ac05c-2">2</a>
-<a href="#rest_code_49994d95e07545eb8acb4508ec6ac05c-3">3</a>
-<a href="#rest_code_49994d95e07545eb8acb4508ec6ac05c-4">4</a></pre></div></td>
-<td class="code"><pre class="code javascript"><a name="rest_code_49994d95e07545eb8acb4508ec6ac05c-1"></a> <span class="kd">var</span> <span class="nx">path</span> <span class="o">=</span> <span class="s1">'path/to/file'</span><span class="p">,</span>
-<a name="rest_code_49994d95e07545eb8acb4508ec6ac05c-2"></a>     <span class="c1">// Insecure '^'.</span>
-<a name="rest_code_49994d95e07545eb8acb4508ec6ac05c-3"></a>     <span class="nx">regexp</span> <span class="o">=</span> <span class="sr">/([^\/])+$/g</span><span class="p">,</span>
-<a name="rest_code_49994d95e07545eb8acb4508ec6ac05c-4"></a>     <span class="nx">filename</span> <span class="o">=</span> <span class="nx">path</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span><span class="nx">regexp</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span>
+<td class="linenos"><div class="linenodiv"><pre><a href="#rest_code_c1452119e1944eeb83ad281533c3b971-1">1</a>
+<a href="#rest_code_c1452119e1944eeb83ad281533c3b971-2">2</a>
+<a href="#rest_code_c1452119e1944eeb83ad281533c3b971-3">3</a>
+<a href="#rest_code_c1452119e1944eeb83ad281533c3b971-4">4</a></pre></div></td>
+<td class="code"><pre class="code javascript"><a name="rest_code_c1452119e1944eeb83ad281533c3b971-1"></a> <span class="kd">var</span> <span class="nx">path</span> <span class="o">=</span> <span class="s1">'path/to/file'</span><span class="p">,</span>
+<a name="rest_code_c1452119e1944eeb83ad281533c3b971-2"></a>     <span class="c1">// Insecure '^'.</span>
+<a name="rest_code_c1452119e1944eeb83ad281533c3b971-3"></a>     <span class="nx">regexp</span> <span class="o">=</span> <span class="sr">/([^\/])+$/g</span><span class="p">,</span>
+<a name="rest_code_c1452119e1944eeb83ad281533c3b971-4"></a>     <span class="nx">filename</span> <span class="o">=</span> <span class="nx">path</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span><span class="nx">regexp</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span>
 </pre></td>
 </tr></table>
 <p>Are you aware of any other issues related to errors reported by JsLint?
@@ -186,6 +186,9 @@ enumerating some inconsistencies in&nbsp;JsLint.</p>
     
     
     
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script src="../../assets/js/scripts.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script src="../../assets/js/scripts.min.js"></script><script src="../../assets/js/moment-with-locales.min.js"></script><script src="../../assets/js/fancydates.js"></script><!-- fancy dates code --><script>
+    moment.locale("en");
+    fancydates(2, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates code -->
 </body>
 </html>

@@ -64,6 +64,7 @@ obsługą sytuacji krytycznych czy odpowiednim do sytuacji wznawianiem błędnyc
 sporo czasu i na pewno lepiej jest skorzystać z gotowych rozwiązań.
 
 Wymienione gotowe rozwiązania to:
+
 * MemcacheQ
 * BeanstalkD (+biblioteka Pheanstalk)
 * GearmanD – Task Management Framework
@@ -84,11 +85,12 @@ Rowan Merewood: Szacowanie, albo jak wykopać swój własny grób
 Rowan Merewood mówił dość szeroko o szacowaniu ilości czasu, który to problem na ogół dotyka
 programistów (Rowan jest programistą PHP). Zachęcam do przejrzenia prezentacji na Slideshare,
 dowiedziałem się z niej między innymi:
+
 * że 8-godzinny dzień pracy to najwyżej 6 godzin pracy,
 * że bardzo dokładne planowanie zadań wcale nie pomaga w wycenie,
 * że ze względu na niepewność wycen podejście iteracyjne jest jedynym sensownym,
 * o `modelu Kano <http://en.wikipedia.org/wiki/Kano_model>`__, czyli co sprawia że klient jest zadowolony
-i jak to się ma do `metody MoSCoW <http://en.wikipedia.org/wiki/MoSCoW_Method>`__
+  i jak to się ma do `metody MoSCoW <http://en.wikipedia.org/wiki/MoSCoW_Method>`__
 * i że czasem lepiej jest powiedzieć, że coś „będzie, kiedy będzie” zamiast podawać wycenę „z sufitu”. 🙂
 
 Thijs Feryn: Tworzenie i wdrażanie z użyciem strategii chmur hybrydowych

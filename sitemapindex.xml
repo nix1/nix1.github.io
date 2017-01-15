@@ -6,147 +6,47 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>/categories/blog.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>/categories/cat_food.xml</loc>
-  <lastmod>2017-01-15T00:49:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/categories/cat_nikola.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
+  <lastmod>2017-01-15T01:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/categories/cat_random.xml</loc>
-  <lastmod>2017-01-15T00:49:00Z</lastmod>
+  <lastmod>2017-01-15T01:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/categories/cat_software-engineering.xml</loc>
-  <lastmod>2017-01-15T00:49:00Z</lastmod>
+  <lastmod>2017-01-15T01:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/categories/conferences.xml</loc>
-  <lastmod>2017-01-15T00:49:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/categories/demo.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
+  <lastmod>2017-01-15T01:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/categories/english.xml</loc>
-  <lastmod>2017-01-15T00:49:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/categories/nikola.xml</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
+  <lastmod>2017-01-15T01:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/categories/polish.xml</loc>
-  <lastmod>2017-01-15T00:49:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/categories/python.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
+  <lastmod>2017-01-15T01:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/categories/recipes.xml</loc>
-  <lastmod>2017-01-15T00:49:00Z</lastmod>
+  <lastmod>2017-01-15T01:26:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/galleries/demo/rss.xml</loc>
-  <lastmod>2017-01-15T00:49:00Z</lastmod>
+  <lastmod>2017-01-15T21:42:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/galleries/rss.xml</loc>
-  <lastmod>2017-01-15T00:49:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/it/categories/blog.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/it/categories/cat_nikola.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/it/categories/cat_software-engineering.xml</loc>
-  <lastmod>2017-01-14T19:47:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/it/categories/conferences.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/it/categories/demo.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/it/categories/nikola.xml</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/it/categories/python.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/it/galleries/demo/rss.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/it/galleries/rss.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/it/rss.xml</loc>
-  <lastmod>2017-01-14T19:47:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/pl/categories/blog.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/pl/categories/cat_nikola.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/pl/categories/cat_software-engineering.xml</loc>
-  <lastmod>2017-01-14T19:47:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/pl/categories/conferences.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/pl/categories/demo.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/pl/categories/nikola.xml</loc>
-  <lastmod>2017-01-13T21:55:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/pl/categories/python.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/pl/galleries/demo/rss.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/pl/galleries/rss.xml</loc>
-  <lastmod>2017-01-14T19:10:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/pl/rss.xml</loc>
-  <lastmod>2017-01-14T19:47:00Z</lastmod>
+  <lastmod>2017-01-15T21:42:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/rss.xml</loc>
-  <lastmod>2017-01-15T00:49:00Z</lastmod>
+  <lastmod>2017-01-15T19:29:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/sitemap.xml</loc>
-  <lastmod>2017-01-15T00:49:00Z</lastmod>
+  <lastmod>2017-01-15T21:42:00Z</lastmod>
  </sitemap>
 </sitemapindex>

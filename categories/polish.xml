@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Coding, Cooking and Random Things (Posts about polish)</title><link>/</link><description></description><atom:link rel="self" type="application/rss+xml" href="/categories/polish.xml"></atom:link><language>en</language><lastBuildDate>Sun, 15 Jan 2017 00:49:10 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>4developers 2012</title><link>/posts/4developers-2012/</link><dc:creator>Paweł Sierszeń</dc:creator><description>&lt;div&gt;&lt;p&gt;Konferencja 4developers odbyła się 18 kwietnia w Poznaniu. Miejsce całkiem w porządku
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Coding, Cooking and Random Things (Posts about polish)</title><link>/</link><description></description><atom:link rel="self" href="/categories/polish.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sun, 15 Jan 2017 22:54:52 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>4developers 2012</title><link>/posts/4developers-2012/</link><dc:creator>Paweł Sierszeń</dc:creator><description>&lt;div&gt;&lt;p&gt;Konferencja 4developers odbyła się 18 kwietnia w Poznaniu. Miejsce całkiem w porządku
 (&lt;a class="reference external" href="http://concordiadesign.pl/"&gt;Concordia Design&lt;/a&gt;), tyle że jednak do Poznania jest dość daleko…&lt;/p&gt;
 &lt;p&gt;Zanim przejdę do konkretów, kilka słów o kwestiach organizacyjnych. Tak jak rok temu, konferencja była
 podzielona na 4 sesje między którymi można było się swobodnie przemieszczać. Były to:
@@ -47,12 +47,14 @@ Mariusz porównuje to do pisania frameworka – podobno każdy programista wcze�
 pisze swój 🙂 Oczywiście jest to możliwe, natomiast zrobienie tego prawidłowo, to znaczy z
 obsługą sytuacji krytycznych czy odpowiednim do sytuacji wznawianiem błędnych zadań zajmuje
 sporo czasu i na pewno lepiej jest skorzystać z gotowych rozwiązań.&lt;/p&gt;
-&lt;p&gt;Wymienione gotowe rozwiązania to:
-* MemcacheQ
-* BeanstalkD (+biblioteka Pheanstalk)
-* GearmanD – Task Management Framework
-* Amazon SQS (w chmurze, $0.01 za 10000 requestów)
-* Resque&lt;/p&gt;
+&lt;p&gt;Wymienione gotowe rozwiązania to:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;MemcacheQ&lt;/li&gt;
+&lt;li&gt;BeanstalkD (+biblioteka Pheanstalk)&lt;/li&gt;
+&lt;li&gt;GearmanD – Task Management Framework&lt;/li&gt;
+&lt;li&gt;Amazon SQS (w chmurze, $0.01 za 10000 requestów)&lt;/li&gt;
+&lt;li&gt;Resque&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Trudno mi po pobieżnym przejrzeniu porównać je do siebie. Osoby korzystające z Memcache’a
 na pewno zainteresuje MemcacheQ, a SQS te korzystające z chmur Amazonu. Wydaje się że Gearman
 oferuje najwięcej możliwości, a najbardziej przyjazny jest stworzony na potrzeby Githuba Resque
@@ -64,13 +66,15 @@ oferuje najwięcej możliwości, a najbardziej przyjazny jest stworzony na potrz
 &lt;p&gt;&lt;a class="reference external" href="http://www.slideshare.net/rowan_m/estimation-or-how-to-dig-your-grave"&gt;prezentacja na Slideshare&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Rowan Merewood mówił dość szeroko o szacowaniu ilości czasu, który to problem na ogół dotyka
 programistów (Rowan jest programistą PHP). Zachęcam do przejrzenia prezentacji na Slideshare,
-dowiedziałem się z niej między innymi:
-* że 8-godzinny dzień pracy to najwyżej 6 godzin pracy,
-* że bardzo dokładne planowanie zadań wcale nie pomaga w wycenie,
-* że ze względu na niepewność wycen podejście iteracyjne jest jedynym sensownym,
-* o &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Kano_model"&gt;modelu Kano&lt;/a&gt;, czyli co sprawia że klient jest zadowolony
-i jak to się ma do &lt;a class="reference external" href="http://en.wikipedia.org/wiki/MoSCoW_Method"&gt;metody MoSCoW&lt;/a&gt;
-* i że czasem lepiej jest powiedzieć, że coś „będzie, kiedy będzie” zamiast podawać wycenę „z sufitu”. 🙂&lt;/p&gt;
+dowiedziałem się z niej między innymi:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;że 8-godzinny dzień pracy to najwyżej 6 godzin pracy,&lt;/li&gt;
+&lt;li&gt;że bardzo dokładne planowanie zadań wcale nie pomaga w wycenie,&lt;/li&gt;
+&lt;li&gt;że ze względu na niepewność wycen podejście iteracyjne jest jedynym sensownym,&lt;/li&gt;
+&lt;li&gt;o &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Kano_model"&gt;modelu Kano&lt;/a&gt;, czyli co sprawia że klient jest zadowolony
+i jak to się ma do &lt;a class="reference external" href="http://en.wikipedia.org/wiki/MoSCoW_Method"&gt;metody MoSCoW&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;i że czasem lepiej jest powiedzieć, że coś „będzie, kiedy będzie” zamiast podawać wycenę „z sufitu”. 🙂&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="thijs-feryn-tworzenie-i-wdrazanie-z-uzyciem-strategii-chmur-hybrydowych"&gt;
 &lt;h2&gt;Thijs Feryn: Tworzenie i wdrażanie z użyciem strategii chmur hybrydowych&lt;/h2&gt;

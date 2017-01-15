@@ -4492,23 +4492,11 @@ body {
     margin: 0 auto;
     max-width: 440px;
     padding: 10px 15px;
-    background-color: rgba(34, 34, 34, 0.5);
-    color: #fff;
-    font-size: 12px;
-    font-size: 0.75rem;
+    background-color: rgba(34, 34, 34, 0.2);
+    color: #d0d0d0;
+    font-size: 0.6rem;
     text-align: right;
-    -webkit-border-top-right-radius: 3px;
-    -webkit-border-bottom-right-radius: 0;
-    -webkit-border-bottom-left-radius: 0;
-    -webkit-border-top-left-radius: 3px;
-    -moz-border-radius-topright: 3px;
-    -moz-border-radius-bottomright: 0;
-    -moz-border-radius-bottomleft: 0;
-    -moz-border-radius-topleft: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 3px;
+    border-top-left-radius: 6px;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
@@ -4587,16 +4575,6 @@ body {
 
 .entry-meta .entry-reading-time {
     float: right;
-}
-
-header .entry-meta {
-    display: none;
-}
-
-@media only screen and (min-width: 48em) {
-    header .entry-meta {
-        display: block
-    }
 }
 
 #post .entry-content, #page .entry-content {

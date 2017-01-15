@@ -131,12 +131,14 @@ Mariusz porównuje to do pisania frameworka – podobno każdy programista wcze�
 pisze swój 🙂 Oczywiście jest to możliwe, natomiast zrobienie tego prawidłowo, to znaczy z
 obsługą sytuacji krytycznych czy odpowiednim do sytuacji wznawianiem błędnych zadań zajmuje
 sporo czasu i na pewno lepiej jest skorzystać z gotowych&nbsp;rozwiązań.</p>
-<p>Wymienione gotowe rozwiązania to:
-* MemcacheQ
-* BeanstalkD (+biblioteka Pheanstalk)
-* GearmanD – Task Management Framework
-* Amazon SQS (w chmurze, $0.01 za 10000 requestów)
-*&nbsp;Resque</p>
+<p>Wymienione gotowe rozwiązania&nbsp;to:</p>
+<ul class="simple">
+<li>MemcacheQ</li>
+<li>BeanstalkD (+biblioteka&nbsp;Pheanstalk)</li>
+<li>GearmanD – Task Management&nbsp;Framework</li>
+<li>Amazon SQS (w chmurze, $0.01 za 10000&nbsp;requestów)</li>
+<li>Resque</li>
+</ul>
 <p>Trudno mi po pobieżnym przejrzeniu porównać je do siebie. Osoby korzystające z Memcache’a
 na pewno zainteresuje MemcacheQ, a SQS te korzystające z chmur Amazonu. Wydaje się że Gearman
 oferuje najwięcej możliwości, a najbardziej przyjazny jest stworzony na potrzeby Githuba Resque
@@ -148,13 +150,16 @@ oferuje najwięcej możliwości, a najbardziej przyjazny jest stworzony na potrz
 <p><a class="reference external" href="http://www.slideshare.net/rowan_m/estimation-or-how-to-dig-your-grave">prezentacja na&nbsp;Slideshare</a></p>
 <p>Rowan Merewood mówił dość szeroko o szacowaniu ilości czasu, który to problem na ogół dotyka
 programistów (Rowan jest programistą PHP). Zachęcam do przejrzenia prezentacji na Slideshare,
-dowiedziałem się z niej między innymi:
-* że 8-godzinny dzień pracy to najwyżej 6 godzin pracy,
-* że bardzo dokładne planowanie zadań wcale nie pomaga w wycenie,
-* że ze względu na niepewność wycen podejście iteracyjne jest jedynym sensownym,
-* o <a class="reference external" href="http://en.wikipedia.org/wiki/Kano_model">modelu Kano</a>, czyli co sprawia że klient jest zadowolony
-i jak to się ma do <a class="reference external" href="http://en.wikipedia.org/wiki/MoSCoW_Method">metody MoSCoW</a>
-* i że czasem lepiej jest powiedzieć, że coś „będzie, kiedy będzie” zamiast podawać wycenę „z sufitu”.&nbsp;🙂</p>
+dowiedziałem się z niej między&nbsp;innymi:</p>
+<ul class="simple">
+<li>że 8-godzinny dzień pracy to najwyżej 6 godzin&nbsp;pracy,</li>
+<li>że bardzo dokładne planowanie zadań wcale nie pomaga w&nbsp;wycenie,</li>
+<li>że ze względu na niepewność wycen podejście iteracyjne jest jedynym&nbsp;sensownym,</li>
+<li>o <a class="reference external" href="http://en.wikipedia.org/wiki/Kano_model">modelu Kano</a>, czyli co sprawia że klient jest zadowolony
+i jak to się ma do <a class="reference external" href="http://en.wikipedia.org/wiki/MoSCoW_Method">metody&nbsp;MoSCoW</a>
+</li>
+<li>i że czasem lepiej jest powiedzieć, że coś „będzie, kiedy będzie” zamiast podawać wycenę „z sufitu”.&nbsp;🙂</li>
+</ul>
 </div>
 <div class="section" id="thijs-feryn-tworzenie-i-wdrazanie-z-uzyciem-strategii-chmur-hybrydowych">
 <h2>Thijs Feryn: Tworzenie i wdrażanie z użyciem strategii chmur&nbsp;hybrydowych</h2>
@@ -274,6 +279,9 @@ głównie drobnych, jak np. smycze, ale też T-shirty, pokrowce na laptopy, dysk
     
     
     
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script src="../../assets/js/scripts.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><script src="../../assets/js/scripts.min.js"></script><script src="../../assets/js/moment-with-locales.min.js"></script><script src="../../assets/js/fancydates.js"></script><!-- fancy dates code --><script>
+    moment.locale("en");
+    fancydates(2, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates code -->
 </body>
 </html>
