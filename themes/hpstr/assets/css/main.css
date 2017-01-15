@@ -4589,16 +4589,6 @@ body {
     float: right;
 }
 
-header .entry-meta {
-    display: none;
-}
-
-@media only screen and (min-width: 48em) {
-    header .entry-meta {
-        display: block
-    }
-}
-
 #post .entry-content, #page .entry-content {
     margin: 40px 2px 20px 2px;
     padding: 10px 15px;
