@@ -73,6 +73,15 @@ lang="${lang}">
 <%def name="late_load_js()">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="/assets/js/scripts.min.js"></script>
+    <script src="/assets/js/moment-with-locales.min.js"></script>
+    <script src="/assets/js/fancydates.js"></script>
+
+    <!-- fancy dates code -->
+    <script>
+    moment.locale("${momentjs_locales[lang]}");
+    fancydates(${date_fanciness}, ${js_date_format});
+    </script>
+    <!-- end fancy dates code -->
 </%def>
 
 <%def name="html_stylesheets()">
