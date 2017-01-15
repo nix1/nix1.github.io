@@ -17,7 +17,7 @@
     <header>
       <div class="entry-meta">
       <span class="entry-date date published updated">
-        <time datetime="${post.date.isoformat()}" title="${post.formatted_date(date_format)}">${post.formatted_date(date_format)}</time>
+        <time class="published dt-published" datetime="${post.date.isoformat()}" title="${post.formatted_date(date_format)}">${post.formatted_date(date_format)}</time>
       </span>&nbsp;&nbsp;&middot;&nbsp;&nbsp;
       <span class="byline author vcard">${post.author()}</span>
       % if not post.meta('nocomments') and site_has_comments:
