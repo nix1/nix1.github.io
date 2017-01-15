@@ -1,4 +1,4 @@
-Sitemap: /sitemapindex.xml
+Sitemap: https://nix1.github.io/sitemapindex.xml
 
 User-Agent: *
-Host: 
+Host: nix1.github.io

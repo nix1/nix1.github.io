@@ -6,95 +6,395 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>/</loc>
+  <loc>https://nix1.github.io/</loc>
   <lastmod>2017-01-15T00:44:00Z</lastmod>
  </url>
  <url>
-  <loc>/2011/</loc>
+  <loc>https://nix1.github.io/2011/</loc>
   <lastmod>2017-01-14T19:14:00Z</lastmod>
  </url>
  <url>
-  <loc>/2012/</loc>
+  <loc>https://nix1.github.io/2012/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>/2013/</loc>
+  <loc>https://nix1.github.io/2013/</loc>
   <lastmod>2017-01-15T00:44:00Z</lastmod>
  </url>
  <url>
-  <loc>/archive.html</loc>
-  <lastmod>2017-01-15T21:42:00Z</lastmod>
+  <loc>https://nix1.github.io/archive.html</loc>
+  <lastmod>2017-01-15T23:37:00Z</lastmod>
  </url>
  <url>
-  <loc>/categories/</loc>
-  <lastmod>2017-01-15T01:07:00Z</lastmod>
+  <loc>https://nix1.github.io/categories/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
  </url>
  <url>
-  <loc>/categories/cat_food/</loc>
+  <loc>https://nix1.github.io/categories/blog/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/categories/cat_food/</loc>
   <lastmod>2017-01-15T00:05:00Z</lastmod>
  </url>
  <url>
-  <loc>/categories/cat_random/</loc>
+  <loc>https://nix1.github.io/categories/cat_nikola/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/categories/cat_random/</loc>
   <lastmod>2017-01-15T00:36:00Z</lastmod>
  </url>
  <url>
-  <loc>/categories/cat_software-engineering/</loc>
+  <loc>https://nix1.github.io/categories/cat_software-engineering/</loc>
   <lastmod>2017-01-14T19:14:00Z</lastmod>
  </url>
  <url>
-  <loc>/categories/conferences/</loc>
+  <loc>https://nix1.github.io/categories/conferences/</loc>
   <lastmod>2017-01-14T19:10:00Z</lastmod>
  </url>
  <url>
-  <loc>/categories/english/</loc>
+  <loc>https://nix1.github.io/categories/demo/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/categories/english/</loc>
   <lastmod>2017-01-15T00:05:00Z</lastmod>
  </url>
  <url>
-  <loc>/categories/polish/</loc>
+  <loc>https://nix1.github.io/categories/nikola/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/categories/polish/</loc>
   <lastmod>2017-01-14T19:54:00Z</lastmod>
  </url>
  <url>
-  <loc>/categories/recipes/</loc>
+  <loc>https://nix1.github.io/categories/python/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/categories/recipes/</loc>
   <lastmod>2017-01-15T00:05:00Z</lastmod>
  </url>
  <url>
-  <loc>/galleries/</loc>
+  <loc>https://nix1.github.io/galleries/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>/galleries/demo/</loc>
+  <loc>https://nix1.github.io/galleries/demo/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>/listings/</loc>
+  <loc>https://nix1.github.io/it/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/2012/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/archive.html</loc>
+  <lastmod>2017-01-15T23:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/categories/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/categories/blog/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/categories/cat_nikola/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/categories/demo/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/categories/nikola/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/categories/python/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/galleries/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/galleries/demo/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/about-nikola/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/bootstrap-demo/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/charts/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/creating-a-theme/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/dr-nikolas-vendetta/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/extending/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/handbook/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/internals/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/listings-demo/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/path-handlers/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/quickref/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/quickstart/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/slides-demo/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/social_buttons/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/pages/theming/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/it/posts/welcome-to-nikola/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/listings/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>/listings/__pycache__/</loc>
+  <loc>https://nix1.github.io/listings/__pycache__/</loc>
   <lastmod>2017-01-13T21:55:00Z</lastmod>
  </url>
  <url>
-  <loc>/listings/hello.py.html</loc>
-  <lastmod>2017-01-15T21:42:00Z</lastmod>
+  <loc>https://nix1.github.io/listings/hello.py.html</loc>
+  <lastmod>2017-01-15T23:37:00Z</lastmod>
  </url>
  <url>
-  <loc>/posts/4developers-2012/</loc>
+  <loc>https://nix1.github.io/pages/about-nikola/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/bootstrap-demo/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/charts/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/creating-a-theme/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/dr-nikolas-vendetta/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/extending/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/handbook/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/internals/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/listings-demo/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/path-handlers/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/quickref/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/quickstart/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/slides-demo/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/social_buttons/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pages/theming/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/2012/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/archive.html</loc>
+  <lastmod>2017-01-15T23:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/categories/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/categories/blog/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/categories/cat_nikola/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/categories/demo/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/categories/nikola/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/categories/python/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/galleries/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/galleries/demo/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/about-nikola/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/bootstrap-demo/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/charts/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/creating-a-theme/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/dr-nikolas-vendetta/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/extending/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/handbook/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/internals/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/listings-demo/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/path-handlers/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/quickref/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/quickstart/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/slides-demo/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/social_buttons/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/pages/theming/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/pl/posts/welcome-to-nikola/</loc>
+  <lastmod>2017-01-15T23:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/posts/4developers-2012/</loc>
   <lastmod>2017-01-14T23:04:00Z</lastmod>
  </url>
  <url>
-  <loc>/posts/easy-pizza-the-simplest-no-knead-home-made-pizza-ever/</loc>
+  <loc>https://nix1.github.io/posts/easy-pizza-the-simplest-no-knead-home-made-pizza-ever/</loc>
   <lastmod>2017-01-15T00:05:00Z</lastmod>
  </url>
  <url>
-  <loc>/posts/jslint-is-eval-what-i-hate-about-jslint/</loc>
+  <loc>https://nix1.github.io/posts/jslint-is-eval-what-i-hate-about-jslint/</loc>
   <lastmod>2017-01-15T00:44:00Z</lastmod>
  </url>
  <url>
-  <loc>/posts/phpcon-2011/</loc>
+  <loc>https://nix1.github.io/posts/phpcon-2011/</loc>
   <lastmod>2017-01-14T19:14:00Z</lastmod>
  </url>
  <url>
-  <loc>/posts/polyphasic-sleep-schedules-some-mathematics/</loc>
+  <loc>https://nix1.github.io/posts/polyphasic-sleep-schedules-some-mathematics/</loc>
   <lastmod>2017-01-15T00:28:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://nix1.github.io/posts/welcome-to-nikola/</loc>
+  <lastmod>2017-01-15T23:22:00Z</lastmod>
  </url>
 </urlset>
