@@ -6,131 +6,47 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://nix1.github.io/categories/blog.xml</loc>
-  <lastmod>2017-01-15T23:22:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://nix1.github.io/categories/cat_food.xml</loc>
-  <lastmod>2017-01-15T23:37:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/categories/cat_nikola.xml</loc>
-  <lastmod>2017-01-15T23:22:00Z</lastmod>
+  <lastmod>2017-05-18T11:17:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/categories/cat_random.xml</loc>
-  <lastmod>2017-01-15T23:37:00Z</lastmod>
+  <lastmod>2017-05-18T11:17:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/categories/cat_software-engineering.xml</loc>
-  <lastmod>2017-01-15T23:37:00Z</lastmod>
+  <lastmod>2017-05-18T11:17:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/categories/conferences.xml</loc>
-  <lastmod>2017-01-15T23:37:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/categories/demo.xml</loc>
-  <lastmod>2017-01-15T23:22:00Z</lastmod>
+  <lastmod>2017-05-18T11:17:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/categories/english.xml</loc>
-  <lastmod>2017-01-15T23:37:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/categories/nikola.xml</loc>
-  <lastmod>2017-01-15T23:22:00Z</lastmod>
+  <lastmod>2017-05-18T11:17:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/categories/polish.xml</loc>
-  <lastmod>2017-01-15T23:37:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/categories/python.xml</loc>
-  <lastmod>2017-01-15T23:22:00Z</lastmod>
+  <lastmod>2017-05-18T11:17:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/categories/recipes.xml</loc>
-  <lastmod>2017-01-15T23:37:00Z</lastmod>
+  <lastmod>2017-05-18T11:17:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/galleries/demo/rss.xml</loc>
-  <lastmod>2017-01-15T23:37:00Z</lastmod>
+  <lastmod>2017-05-18T11:17:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/galleries/rss.xml</loc>
-  <lastmod>2017-01-15T23:37:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/it/categories/blog.xml</loc>
-  <lastmod>2017-01-15T23:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/it/categories/cat_nikola.xml</loc>
-  <lastmod>2017-01-15T23:21:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/it/categories/demo.xml</loc>
-  <lastmod>2017-01-15T23:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/it/categories/nikola.xml</loc>
-  <lastmod>2017-01-15T23:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/it/categories/python.xml</loc>
-  <lastmod>2017-01-15T23:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/it/galleries/demo/rss.xml</loc>
-  <lastmod>2017-01-15T23:21:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/it/galleries/rss.xml</loc>
-  <lastmod>2017-01-15T23:21:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/it/rss.xml</loc>
-  <lastmod>2017-01-15T23:27:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/pl/categories/blog.xml</loc>
-  <lastmod>2017-01-15T23:21:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/pl/categories/cat_nikola.xml</loc>
-  <lastmod>2017-01-15T23:21:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/pl/categories/demo.xml</loc>
-  <lastmod>2017-01-15T23:21:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/pl/categories/nikola.xml</loc>
-  <lastmod>2017-01-15T23:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/pl/categories/python.xml</loc>
-  <lastmod>2017-01-15T23:21:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/pl/galleries/demo/rss.xml</loc>
-  <lastmod>2017-01-15T23:21:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/pl/galleries/rss.xml</loc>
-  <lastmod>2017-01-15T23:21:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://nix1.github.io/pl/rss.xml</loc>
-  <lastmod>2017-01-15T23:27:00Z</lastmod>
+  <lastmod>2017-05-18T11:17:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/rss.xml</loc>
-  <lastmod>2017-01-15T23:37:00Z</lastmod>
+  <lastmod>2017-05-18T11:17:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/sitemap.xml</loc>
-  <lastmod>2017-01-15T23:37:00Z</lastmod>
+  <lastmod>2017-05-18T11:17:00Z</lastmod>
  </sitemap>
 </sitemapindex>
