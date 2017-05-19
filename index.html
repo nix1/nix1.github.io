@@ -13,7 +13,7 @@
 <!-- Webfonts --><link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
 <!-- Load Modernizr --><script src="//mmistakes.github.io/hpstr-jekyll-theme/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://nix1.github.io/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/jslint-is-eval-what-i-hate-about-jslint/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/is-semantic-ui-suitable-for-your-project/" type="text/html">
 </head>
 <body id="post-index" class="feature">
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -54,6 +54,29 @@
             
 
     <article class="hentry"><header><div class="entry-meta">
+      <span class="entry-date date published updated">
+        <time class="published dt-published" datetime="2017-02-16T10:27:17+02:00" title="2017-02-16 10:27">2017-02-16 10:27</time></span>  ·  
+      <span class="byline author vcard">Paweł Sierszeń</span>
+            ·  <span class="commentline">
+        
+    <a href="posts/is-semantic-ui-suitable-for-your-project/#disqus_thread" data-disqus-identifier="cache/posts/is-semantic-ui-suitable-for-your-project.html">Comments</a>
+
+
+      </span>
+</div>
+        <h1 class="p-name entry-title"><a href="posts/is-semantic-ui-suitable-for-your-project/" class="u-url">Is Semantic UI suitable for your&nbsp;project?</a></h1>
+    </header><div class="e-content entry-content">
+    <div>
+<p>More than a year ago, we decided to use <a class="reference external" href="https://semantic-ui.com/">Semantic UI</a> at <a class="reference external" href="https://codility.com/">Codility</a> as the framework that will help us build nice user interfaces&nbsp;faster.</p>
+<img alt="/images/semantic-ui.png" class="align-right" src="images/semantic-ui.png"><p>Initially, we often had to discover how to do things Semantic-way, but perhaps it also applies to any other framework. Switching from what we had previously was a bit difficult, but we were happy with the outcome, as having a library such as this one saves a lot of time both in the UX team and in the dev team. In particular, moving the definition of how things look to HTML (via a large number of CSS classes) versus writing large amounts of CSS is certainly much more maintainable and it&#8217;s a big deal in the large code base such as ours. If you are starting a new project you won&#8217;t have the problems with conversion that we&nbsp;had.</p>
+<p>One of the most important things that we changed in the configuration is the number of grid columns, which was 16 by default. 12 columns are certainly a much better choice, because they give you much more freedom - there were things we just couldn&#8217;t implement with the default value, like for instance the responsive footer that has 6 segments. I would highly recommend switching to 12 columns before you start working with&nbsp;grids.</p>
+<img alt="/images/semantic-ui2.png" class="align-center" src="images/semantic-ui2.png"><p>If you can use any of the standard themes it will be certainly easier than customizing it; however, it seems that designers always want to change something :) Customizations are usually added to special files in your theme (namely, <tt class="docutils literal">theme.variables</tt> and <tt class="docutils literal">theme.overrides</tt>) and after any change you have to recompile Semantic; this doesn&#8217;t fit very well into out development cycle, because we didn&#8217;t want to add it as yet another step that happens during the deployment (or even local server run), so we ended up committing the compiled sources into our repository. Fortunately, now we don&#8217;t need to modify it very&nbsp;often.</p>
+<p>It&#8217;s a relatively young library so sometimes you can run into bugs (mostly with behaviour implemented in JS, the CSS part rather works well) or things which are not very well documented. This was the most painful when we were trying to develop Semantic-based things in React. Basically, we&#8217;ve found out that trying to synchronise the UI with internal React/Redux states is not a good option. However, since then, the Semantic-UI-React official library was created which is really awesome and totally jQuery-free (we would love to get rid of jQuery in the long run), although some features like animations are not yet&nbsp;implemented.</p>
+<p>There is only one bad thing about the CSS, sometimes (but probably rarely) you will want to override some styles and then you won&#8217;t get away without long selectors and even <tt class="docutils literal">!important</tt>. However, over time we learned that it&#8217;s not as bad as it&nbsp;looks.</p>
+<p>The alternative that we considered was using Bootstrap. The main reason was that with Bootstrap we would look like half of the Internet so we wanted something that looks nicer. Although sometimes we regretted not choosing it, for now we are definitely sticking to Semantic, in particular now when Semantic-UI-React is available, actively developed and we are doing more and more things in&nbsp;React/Redux.</p>
+</div>
+    </div>
+    </article><article class="hentry"><header><div class="entry-meta">
       <span class="entry-date date published updated">
         <time class="published dt-published" datetime="2013-11-07T01:39:49+01:00" title="2013-11-07 01:39">2013-11-07 01:39</time></span>  ·  
       <span class="byline author vcard">Paweł Sierszeń</span>

@@ -15,7 +15,11 @@
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/categories/cat_software-engineering.xml</loc>
-  <lastmod>2017-05-18T11:17:00Z</lastmod>
+  <lastmod>2017-05-19T09:35:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://nix1.github.io/categories/codility.xml</loc>
+  <lastmod>2017-05-19T09:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/categories/conferences.xml</loc>
@@ -23,7 +27,7 @@
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/categories/english.xml</loc>
-  <lastmod>2017-05-18T11:17:00Z</lastmod>
+  <lastmod>2017-05-19T09:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/categories/polish.xml</loc>
@@ -43,10 +47,10 @@
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/rss.xml</loc>
-  <lastmod>2017-05-18T11:17:00Z</lastmod>
+  <lastmod>2017-05-19T09:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://nix1.github.io/sitemap.xml</loc>
-  <lastmod>2017-05-18T11:17:00Z</lastmod>
+  <lastmod>2017-05-19T09:35:00Z</lastmod>
  </sitemap>
 </sitemapindex>
